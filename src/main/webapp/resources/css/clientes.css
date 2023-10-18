@@ -1,0 +1,118 @@
+@charset "ISO-8859-1";
+
+.menu {
+	text-align:center;
+	background-color: #5cb9fa;
+	height: 60px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+}
+
+.btn-back {
+	border:solid 1px;
+	background-color:#5cb9fa;
+	color: #FFFFFF;
+	padding: 5px 10px;
+	text-decoration: none;
+	position: absolute;
+	left: 40px;
+}
+
+h1 {
+	color: white;
+}
+
+.tablaContenedor {
+	width: 100vw;
+	height: calc(100vh - 120px);
+	display:flex;
+	justify-content:center;
+	overflow-y: auto;
+	padding: 10px 0;
+}
+
+table {
+	border-collapse:collapse;
+}
+
+th, td{
+	padding:15px;
+	font-size: 1rem;
+}
+
+th {
+	font-size: 1.05rem;
+	background-color:#F7EAC8;
+}
+
+.tdImpar {
+	background-color:#f3f0e0;
+}
+
+.tdPar {
+	background-color:#fcd8b48c;
+}	
+
+tr:hover {
+	background-color: #fffdf1;
+}
+
+.botonesGestionar {
+	padding: 0 20px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 60px;
+}
+
+.botonesGestionar a {
+	border:solid 1px;
+	background-color:#5cb9fa;
+	color: #FFFFFF;
+	padding: 5px 10px;
+	text-decoration: none;
+}
+
+.botonesGestionar a:hover {
+	background-color:#3e6a9e;
+}
+
+.formContainer {
+	display:flex;
+	justify-content:center;
+	align-items: center;
+	padding: 20px 0;
+}
+
+form {
+	border: 2px solid #5cb9fa;
+	border-radius: 20px;
+	max-width: 500px;
+	width: 500px;
+	padding: 25px;
+	display: flex;
+	flex-direction: column;
+	gap: 15px;
+}
+
+.form-control {
+	display: flex;
+	flex-direction: column;
+	gap: 5px;
+}
+
+.form-control input {
+	padding: 5px 10px;
+}
+
+.form-control button {
+	border:solid 1px;
+	background-color:#5cb9fa;
+	font-size: 18px;
+	color: #FFFFFF;
+	padding: 8px;
+	text-decoration: none;
+	cursor: pointer;
+}

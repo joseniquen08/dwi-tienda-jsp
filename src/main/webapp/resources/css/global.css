@@ -1,0 +1,14 @@
+@charset "ISO-8859-1";
+
+* {
+	padding:0;
+	margin:0;
+	box-sizing: border-box;
+}
+
+body {
+	width: 100vw;
+	height: 100vh;
+	background-color:#eff6f9;
+	font-family: Poppins, sans-serif;
+}
