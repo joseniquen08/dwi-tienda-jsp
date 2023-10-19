@@ -12,7 +12,7 @@
 </head>
 <body>
 	<header>
-		<h1>DevShop Admin</h1>
+		<h1>TIENDA JSP</h1>
 	</header>
 	<main>
 		<section>
