@@ -1,0 +1,16 @@
+{
+  "name": "proyecto_final",
+  "version": "1.0.0",
+  "description": "Repositorio para el curso de Desarrollo Web Integrado de la UTP",
+  "main": "index.js",
+  "scripts": {
+	"dev": "npx tailwindcss -i ./src/main/webapp/resources/css/input.css -o ./src/main/webapp/resources/css/output.css --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.3.5"
+  }
+}
